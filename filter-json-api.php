@@ -10,7 +10,8 @@ foreach ($result as $key => $val){
 
     if ($val['provider'] == 'AXIS'){
 
-        $provider[] = $val;
+        $provider[] = $val; 
+        //$provider = $val; //if get one data
 
     } else if ($val['provider'] == 'TELKOMSEL') {
 
